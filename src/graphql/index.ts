@@ -18,7 +18,6 @@ export async function startGraphQLServer() {
   });
 
   await connectDB();
-
   console.log("Database connection has been established successfully");
   console.log(`🚀 Server ready at: ${url}`);
 }

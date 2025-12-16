@@ -1,7 +1,9 @@
 import { startGraphQLServer } from "./graphql/index.js";
 
 startGraphQLServer().catch((error) => {
+    
   process.exit(1);
+
 });
 
 

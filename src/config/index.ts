@@ -1,3 +1,4 @@
+// src/config/index.ts
 import "dotenv/config";
 
 function required(name: string): string {
